@@ -1,0 +1,36 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Buy Coins</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <!-- 🚨 Don't edit this table -->
+      <table cellspacing="0" cellpadding="0">
+        <thead>
+          <tr>
+            <th>💰 Coin</th>
+            <th>📄 Code</th>
+            <th>🤑 Price</th>
+            <th>📉 Total Supply</th>
+          </tr>
+        </thead>
+        <tbody id="tablebody"></tbody>
+      </table>
+
+      <div class="navigation">
+        <span onclick="fetchdata('back')" id="previous" class="previous"
+          >&#10229;Previous
+        </span>
+        <span onclick="fetchdata('next')" class="next">Next &#10230;</span>
+      </div>
+      <!-- ✅ Add your navigation elements here  -->
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
